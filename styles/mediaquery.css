@@ -1,0 +1,206 @@
+/* Media Query */
+ @media screen and (max-width: 991px) {
+  #our-service-main-flex-container,
+  #our-service-main-flex-container-2,#footer-flex-container
+  {
+  display:grid;
+   grid-template-columns: 1fr 1fr;
+  }
+  #navbar ul{
+ display: grid;
+ grid-template-columns: 1fr;
+  }
+
+  #our-service-main-flex-container,
+  #our-service-main-flex-container-2,
+  #our-service-main-flex-container-4
+  {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #our-service-main-flex-container-3{
+    display: none;
+  }
+ 
+  #welcome-banner-image{
+   height: 100rem;
+   width: 100%;
+  }
+  #input-field-background-color-container{
+    flex-direction: column;
+    width: 70%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    box-sizing: border-box;
+    position: relative;
+  
+   }
+   
+   #input-flex-container{
+    margin-top: 5rem;
+   }
+
+  .border-box-container
+  {
+   width: 20rem;
+   margin: 2rem auto;
+   
+  }
+
+   .img {
+   width: 100%;
+   height: auto;
+   margin-top:-15rem;
+  }
+.New-car-text-container-2 p{
+ width: 23rem;
+ margin-left: -23rem;
+}
+
+
+.button-view{
+ margin-left: -23rem;
+}
+
+.New-car-text-container-2 h2{
+ margin-left: -23rem;
+ margin-top: 4rem;
+} 
+
+h2.bmw{
+  margin-top: 6rem;
+}
+
+
+  .input-1-main-container {
+   padding-left: 0rem;
+   padding-right: 0rem;
+  }
+ .space-btw-2{ 
+   margin-left: 0;
+ }
+  .input-1-container {
+   margin-bottom: 0;
+  }
+  
+  #input-field-main{
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+  }
+ 
+  #cars-container{
+  margin-top: 1rem;
+  }
+  .first-car-container {
+   width: 21.9rem;
+   margin: 0 auto;
+ }
+  
+  .input-1-container {
+   margin-bottom: 0;
+ }
+ .center-text,
+ .button-search {
+ text-align: center;
+ justify-content: center;
+ align-items: center;
+ margin: 1rem;
+ }
+
+ .input-footer-container{
+   width: 90%;
+ }
+   }
+   
+ @media screen and (max-width: 768px) {
+  #our-service-main-flex-container,
+  #our-service-main-flex-container-2,#our-service-main-flex-container-4,
+  #background-color-hash
+  {
+   display:grid;
+   grid-template-columns: 1fr;
+  }
+  #centered-text-container{
+    margin-top: 0;
+   }
+
+.img {
+   width: 20rem;
+   height: auto;
+   margin-top:-15rem;
+  }
+.New-car-text-container-2 p{
+ width: 23rem;
+ margin-left: -23rem;
+
+}
+
+.button-view{
+ margin-left: -23rem;
+}
+
+.New-car-text-container-2 h2{
+ margin-left: -23rem;
+} 
+
+
+  .first-car-container {
+   max-width: 21.9rem;
+   margin: 0 auto;
+ }
+  #footer-flex-container-2{
+   gap: 10rem;
+   margin-bottom: 0;
+  }
+  .input-footer-container{
+   width: 40%;
+  }
+ 
+  #car-villa-main-container{
+   margin-bottom: 0;
+  }
+ 
+  .footer-border-line-flex-container {
+   flex-direction: column; 
+  }
+   #footer-flex-container {
+   display:grid ;
+   grid-template-columns: 1fr;
+   }
+   #footer-main-container {
+     margin-left: auto;
+     margin-right: auto;
+     padding-right: 1rem;
+     padding-left: 1rem;
+   }
+  
+ }  
+
+ @media screen and (max-width: 360px){
+  .img {
+    width: 9rem;
+    height: auto;
+    margin-top:-0rem;
+   }
+   
+ .New-car-text-container-2 p{
+  width: 17rem;
+  margin-left: -12.5rem;
+ 
+ }
+ 
+ .button-view{
+  margin-left: -12.5rem;
+ }
+
+ 
+.New-car-text-container-2 h2{
+  margin-left: -12.5rem;
+ }
+ }
+  
